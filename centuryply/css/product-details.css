@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tech-spec-popup ul li {
+	width: 48%;
+	margin-right: 4%;
+	vertical-align: top;
+	font-size: 15px;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	display: inline-flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.tech-spec-list i {
+	width: 50px;
+	margin-right: 20px;
+}
+.tech-spec-popup ul li:last-child {
+	align-items: flex-start;
+}
+.tech-spec-popup ul li.simple_tec_sec {
+    align-items: center;
+}
+ul.description_list {
+	font-size: 13px;
+}
+
+@media all and (max-width: 767px){    
+    .tech-spec-popup ul li {
+        width: 100%;
+        margin-right: 0%;       
+	}
+	.tech-spec-popup ul li  p{
+		overflow: hidden;
+		clear: both;
+	}
+	.tech-spec-popup ul li strong {
+		width: 100%;
+	}
+	.tech-spec-popup ul li p strong {
+		width: 56%;
+	}
+	.block-usp .usp-list li {
+		width: 100%;
+	}
+	.tech-spec-popup ul li p  span {
+		width: 40%;
+	}
+}

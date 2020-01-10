@@ -1,0 +1,41 @@
+.diwali.home-banner {
+    position: relative;
+}
+.diwali.home-banner:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 367px;
+    background: url(../img/diwali-banner-deco1.png) no-repeat 0 0;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.diwali-2.section-inspiration {
+    position: relative;
+}
+.diwali-2.section-inspiration:before {
+    content: '';
+    display: block;
+    background: url(../img/deco-banner-left.png) no-repeat 0 0;
+    width: 154px;
+    height: 216px;
+    position: absolute;
+    left: 0;
+    bottom: -33px;
+}
+.diwali-3.section-product-range {
+    position: relative;
+}
+.diwali-3.section-product-range:after {
+    content: '';
+    display: block;
+    background: url(../img/deco-banner-right.png) no-repeat 0 0;
+    width: 177px;
+    height: 213px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
