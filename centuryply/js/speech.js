@@ -229,7 +229,7 @@ function startButton(event) {
         return;
     }
     final_transcript = '';
-    recognition.lang = select_dialect.value;
+    recognition.lang ='en-IN';
     recognition.start();
     ignore_onend = false;
     final_span.innerHTML = '';
